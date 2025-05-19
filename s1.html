@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/auth.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="s1.css">
+    <link rel="stylesheet" href="s1_laptop.css">
+    <link rel="stylesheet" href="s1_tablet.css">
+    <link rel="stylesheet" href="s1_mobile.css">
+    <script src="s1.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-top">
+                <div class="logo-container">
+                    <a href="/">
+                        <img src="images/images-Photoroom.png" alt="Delicious Kitchen Logo" class="site-logo">
+                    </a>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <img src="/images/miY-2.png" alt="mainImg">
+            <!-- Thẻ đánh giá góc trái trên -->
+            <div class="star">⭐ 4.9</div>
+            <!-- Nút yêu thích góc phải trên -->
+            <div class="icon">
+                <button class="darkbutton" onclick="toggleDarkMode()">🌗</button>
+                <button><a style="text-decoration:none;" href="https://netcookingtalk.com/forums/threads/how-do-you-like-your-spaghetti.33776/" target="_blank">❤️</a></button>
+            </div>
+
+        </nav>
+        <section>
+            <h2>Hướng dẫn</h2>
+            <h3>🔪 Bước 1: Sơ chế nguyên liệu</h3>
+
+            <div class="main-container">
+                <li class="main-ingre">
+                    <div class="section-img-edit"><img src="/images/cachuatuoi.png" alt="" class="main-img"></div>
+                    <span>Cà chua tươi</span>
+                    <span class="amount" data-base="300">300g</span>
+                </li>
+
+                <li class="main-ingre">
+                    <div class="section-img-edit"><img src="/images/hanhtay.png" alt="" class="main-img"></div>
+                    <span>Hành tây</span>
+                    <span class="amount" data-base="100">100g</span>
+                </li>
+
+                <li class="main-ingre">
+                    <div class="section-img-edit"><img src="/images/toibam.png" alt="" class="main-img"></div>
+                    <span>Tỏi băm</span>
+                    <span class="amount" data-base="10">10g</span>
+                </li>
+            </div>
+
+            <p>Cà chua: rửa sạch, khứa nhẹ chữ thập ở đáy, chần qua nước sôi 30s → bóc vỏ → băm nhuyễn.</p>
+            <P>Hành tây: bóc vỏ, băm nhỏ.</P>
+            <P>Tỏi: đã có sẵn băm, nếu chưa thì băm nhuyễn.</P>
+            <h3>🍳 Bước 2: Làm sốt bò bằm</h3>
+            <div class="main-container">
+                <li class="main-ingre">
+                    <div class="section-img-edit"><img src="/images/dauoliu.png" alt="" class="main-img"></div>
+                    <span>Dầu ô liu</span>
+                    <span class="amount" data-base="20">20ml</span>
+                </li>
+
+                <li class="main-ingre">
+                    <div class="section-img-edit"><img src="/images/thitbobam.png" alt="" class="main-img"></div>
+                    <span>Thịt bò bằm</span>
+                    <span class="amount" data-base="250">250g</span>
+                </li>
+
+                <li class="main-ingre">
+                    <div class="section-img-edit"><img src="/images/tieuden.png" alt="" class="main-img"></div>
+                    <span>Tiêu đen xay</span>
+                    <span class="amount" data-base="1">1g</span>
+                </li>
+            </div>
+            <p>Làm nóng chảo với dầu ô liu.</p>
+            <p>Phi thơm hành tây + tỏi băm đến khi chuyển màu vàng nhẹ.</p>
+            <p>Cho thịt bò bằm vào, đảo đều đến khi thịt săn lại và không còn đỏ.</p>
+            <p>Thêm cà chua băm nhuyễn vào chảo, đảo đều.</p>
+            <p>Nêm nếm thêm tiêu đen xay nhuyễn.</p>
+            <p>Đảo đều rồi để lửa nhỏ, đậy nắp và nấu 10–15 phút cho sốt sệt lại.</p>
+            <h3>🍝 Bước 3: Luộc mì</h3>
+            <div class="main-container">
+                <li class="main-ingre">
+                    <div class="section-img-edit"><img src="/images/nuoc.png" alt="" class="main-img"></div>
+                    <span>Nước</span>
+                    <span class="amount" data-base="2000">2000ml</span>
+                </li>
+
+                <li class="main-ingre">
+                    <div class="section-img-edit"><img src="/images/miY.png" alt="" class="main-img"></div>
+                    <span>Spaghetti</span>
+                    <span class="amount" data-base="250">250g</span>
+                </li>
+
+                <li class="main-ingre">
+                    <div class="section-img-edit"><img src="/images/muoi.png" alt="" class="main-img"></div>
+                    <span>Muối hạt</span>
+                    <span class="amount" data-base="10">10g</span>
+                </li>
+            </div>
+            <p>Đun sôi nước.</p>
+            <p>Cho vào nước sôi muối hạt.</p>
+            <p>Thả mì spaghetti vào luộc 7–10 phút (tùy loại), khuấy nhẹ để không dính.</p>
+            <p>Khi mì chín, vớt ra, xả sơ nước nguội để mì không bị dính.</p>
+            <h3>🍽️ Bước 4: Trình bày và thưởng thức</h3>
+            <p>Trút mì ra đĩa.</p>
+            <p>Rưới phần sốt bò bằm lên trên.</p>
+            <p>Thưởng thức món ăn ngon!!!</p>
+            <iframe style="border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;" width="100%" height="30%"
+                src="https://www.youtube.com/embed/RMYsgP-bB38?si=UjqtDbGaMKtqyTPu" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="mainvideo"></iframe>
+        </section>
+        <aside>
+            <h2>Thành phần</h2>
+            <hr>
+            <div class="servbutton">
+                <span id="count">Phục vụ 1 khách hàng</span>
+                <div class="servbutton2">
+                    <button onclick="decrease()">-</button>
+                    <button onclick="increase()">+</button>
+                </div>
+            </div>
+            <hr>
+            <div class="ingredient">
+                <h3>Phần sốt</h3>
+                <ul>
+                    <li>
+                        <img src="/images/thitbobam.png" alt="">
+                        <span class="name">Thịt bò bằm</span>
+                        <span class="amount" data-base="250">250g</span>
+                    </li>
+                    <li>
+                        <img src="/images/cachuatuoi.png" alt="">
+                        <span class="name">Cà chua tươi</span>
+                        <span class="amount" data-base="300">300g</span>
+                    </li>
+                    <li>
+                        <img src="/images/hanhtay.png" alt="">
+                        <span class="name">Hành tây</span>
+                        <span class="amount" data-base="100">100g</span>
+                    </li>
+                    <li>
+                        <img src="/images/toibam.png" alt="">
+                        <span class="name">Tỏi băm</span>
+                        <span class="amount" data-base="10">10g</span>
+                    </li>
+                    <li>
+                        <img src="/images/dauoliu.png" alt="">
+                        <span class="name">Dầu ô liu</span>
+                        <span class="amount" data-base="20">20ml</span>
+                    </li>
+                    <li>
+                        <img src="/images/muoi.png" alt="">
+                        <span class="name">Muối</span>
+                        <span class="amount" data-base="3">3g</span>
+                    </li>
+                    <li>
+                        <img src="/images/tieuden.png" alt="">
+                        <span class="name">Tiêu đen xay</span>
+                        <span class="amount" data-base="1">1g</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="ingredient">
+                <h3>Phần mì</h3>
+                <ul>
+                    <li>
+                        <img src="/images/miY.png" alt="">
+                        <span class="name">Mì spaghetti</span>
+                        <span class="amount" data-base="250">250g</span>
+                    </li>
+                    <li>
+                        <img src="/images/muoi.png" alt="">
+                        <span class="name">Muối hạt</span>
+                        <span class="amount" data-base="10">10g</span>
+                    </li>
+                    <li>
+                        <img src="/images/nuoc.png" alt="">
+                        <span class="name">Nước</span>
+                        <span class="amount" data-base="2000">2000ml</span>
+                    </li>
+                </ul>
+            </div>
+            <img src="/images/miY-2.png" alt="" class="aside-img">
+            <img src="/images/miY-3-gif.gif" alt="" class="aside-img">
+            <img src="/images/miY-4.png" alt="" class="aside-img">
+            <img src="/images/miY-5-gif.gif" alt="" class="aside-img">
+            <img style="border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;" src="/images/miY-6.png"
+                alt="" class="aside-img">
+
+        </aside>
+        <footer>
+            <div>
+
+                <ul>
+                    <li>
+                        <iframe style="border-radius: 10%;"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.6759007935284!2d106.68569701106364!3d10.75944218934407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ffe63cde847%3A0x3750294cd57d73d3!2sSpaghetti%20To%20Go!5e0!3m2!1svi!2s!4v1747606679736!5m2!1svi!2s"
+                            width="500" height="500" style="border:none;" allowfullscreen="" loading="lazy" class="footermap"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </li>
+                    <li>
+                        <span class="footerfirst">HOẠT ĐỘNG</span>
+                        <span class="footersecond">Thứ 2-Thứ 6: 8AM - 10PM</span>
+                        <span class="footersecond">Thứ 7: 9AM - 8PM</span>
+                        <span class="footersecond">Chủ nhật: Nghỉ</span>
+                    </li>
+                    <li>
+                        <span class="footerfirst">LIÊN HỆ</span>
+                        <span class="footersecond" style="text-decoration: underline;">+190 010 090</span>
+                        <span class="footersecond">
+                            <a href="mailto:hoangtrongnghia2013@gmail.com">hoangtrongnghia2013@gmail.com</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="footerfirst">CỘNG ĐỒNG</span>
+                        <div class="footer-img">
+                            <a href="https://www.facebook.com/hoang.trong.nghia.2511/"><img src="/images/fbicon.png"
+                                    alt=""></a>
+                            <a href="https://www.tiktok.com/"><img src="/images/titkok-icon.png" alt=""></a>
+                            <a href="https://x.com/X."><img src="/images/X-icon.png" alt=""></a>
+                            <a href="https://www.youtube.com/"><img src="/images/ytb-icon.png" alt=""></a>
+                        </div>
+                    </li>
+                    <li>
+                    <form action="" onsubmit="return showInfo()">
+                         <span class="footerfirst">ĐĂNG KÝ NGAY</span>
+                    
+                        <span class="footerthird"><label for=""><b>Email</b></label>
+                            <input id="email" type="email" placeholder="Nhập Email" required></span>
+                        <span class="footerthird">
+                            <label for=""><b>Password</b></label>
+                            <input class="footerfour" type="password" placeholder="Nhập mật khẩu" name="psw" required>
+                        </span>
+                        <span class="footerthird"> <label for=""><b>Repeat Password</b></label>
+                            <input class="footerfour" type="password" placeholder="Nhập lại mật khẩu" required></span>
+                        <span class="footerthird"> <button type="submit" class="signupbtn">Sign Up</button></span>
+                    
+                    </form>   
+                    </li>
+                </ul>
+                <div class="footerfive">© 2025 Blog Nấu Ăn đã đăng ký bản quyền.</div>
+        </footer>
+    </div>
+</body>
+
+</html>
